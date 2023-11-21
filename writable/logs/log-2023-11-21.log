@@ -1,0 +1,36 @@
+CRITICAL - 2023-11-21 12:39:49 --> Undefined variable $status
+in APPPATH\Views\Admin\employerdetails.php on line 62.
+ 1 APPPATH\Views\Admin\employerdetails.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'D:\\laragon\\www\\PesoLink\\app\\Views\\Admin\\employerdetails.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\PesoLink\\app\\Views\\Admin\\employerdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/employerdetails', [], true)
+ 5 APPPATH\Controllers\AdminController.php(39): view('Admin/employerdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->empdetails('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\PesoLink\\public\\index.php')
+CRITICAL - 2023-11-21 13:02:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\vacancydetails.php on line 53.
+ 1 APPPATH\Views\Admin\vacancydetails.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\PesoLink\\app\\Views\\Admin\\vacancydetails.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\PesoLink\\app\\Views\\Admin\\vacancydetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/vacancydetails', [], true)
+ 5 APPPATH\Controllers\AdminController.php(125): view('Admin/vacancydetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->vacancydetails('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\PesoLink\\public\\index.php')
+CRITICAL - 2023-11-21 13:04:04 --> Undefined array key "emp_id"
+in APPPATH\Views\Admin\vacancydetails.php on line 67.
+ 1 APPPATH\Views\Admin\vacancydetails.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "emp_id"', 'D:\\laragon\\www\\PesoLink\\app\\Views\\Admin\\vacancydetails.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\PesoLink\\app\\Views\\Admin\\vacancydetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/vacancydetails', [], true)
+ 5 APPPATH\Controllers\AdminController.php(125): view('Admin/vacancydetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->vacancydetails('18')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\PesoLink\\public\\index.php')
